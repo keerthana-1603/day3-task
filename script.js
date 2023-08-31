@@ -21,7 +21,7 @@
     let data=JSON.parse(xml.response);
     console.log(data);
     for(i=0;i<data.length;i++){
-        console.log( data[i].name.common ,"Flags:",data[i].flags);
+        console.log( "Flags:",data[i].flags);
     }
   }
 
