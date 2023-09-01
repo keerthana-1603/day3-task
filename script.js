@@ -4,7 +4,7 @@
     const obj2 = { age: 5, name: 'person' };
     const keys1 = Object.keys(obj1);
     const keys2 = Object.keys(obj2);
-    if (keys01.length == keys02.length) {
+    if (keys1.length == keys2.length) {
         console.log(true);
     }
     else{
@@ -36,8 +36,6 @@ xml.onload=function(){
     console.log(data);
 
     for(i=0;i<data.length;i++){
-        //let msg=data[i].common;
-        //let region=data[i].region;
         let result=`countries Name: ${data[i].name.common}
           Name:${data[i].region}
           Sub-region:${data[i].subregion}
